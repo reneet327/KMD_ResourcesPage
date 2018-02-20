@@ -1,11 +1,28 @@
+/* RT Grafix Styles */
+
+/* Global styles */
 body{
   font-family: sans-serif;
 }
+h1{
+  margin-left: 30px;
+}
+h2{
+  font-size: 1.2em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+p{
+  color: gray;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+/* Main Divs */
 
 .outer-div{
-  position: relative;
+  display: flex;
   width: 95%;
-  height: 300px;
   border: 1px gray solid;
   border-radius: 10px;
   box-shadow: 1px 2px gray ;
@@ -13,24 +30,18 @@ body{
   padding: 20px;
 }
 
+
 #div2{
   background-color: #F0F0F0;
 }
 
-h1{
-  margin-left: 30px;
+.no-image{
+  width: 205px;
+  height: 268px;
+  background-color: white;
 }
-h2{
-  font-size: 1.2em;
-  margin-bottom: 0;
 
 
-}
-p{
-  color: gray;
-  font-size: 14px;
-  margin-top: 0;
-}
 
 
 
@@ -50,23 +61,65 @@ p{
   .pdfs p{
     color: black;
     font-size: 16px;
-  }
-
-
-
-
-
+   }
 
  #div1-image{
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  margin-left: 20px;
-  padding-left: 20px;
-}
+  display: flex;
+  justify-content: flex-end;
+  }
 
 .copy{
-  margin: 20px;
-  width: 60%;
+  margin: 0px 20px 20px 20px;
+
 
 }
+
+/* w3 styles */
+/* display: .gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: .6em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
