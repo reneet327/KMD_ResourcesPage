@@ -22,6 +22,7 @@ p{
 
 .outer-div{
   display: flex;
+  flex-direction: row;
   width: 95%;
   border: 1px gray solid;
   border-radius: 10px;
@@ -30,22 +31,7 @@ p{
   padding: 20px;
 }
 
-
-#div2{
-  background-color: #F0F0F0;
-}
-
-.no-image{
-  width: 205px;
-  height: 268px;
-  background-color: white;
-}
-
-
-
-
-
-
+/* PDF section */
 .pdfs{
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
@@ -63,63 +49,43 @@ p{
     font-size: 16px;
    }
 
+/* Ad Slicks section */
+#div2{
+  background-color: #F0F0F0;
+}
+
+/* Images and images spacing */
  #div1-image{
   display: flex;
   justify-content: flex-end;
+
+  }
+
+  .no-image{
+    width: 205px;
+    height: 268px;
+    background-color: white;
+  }
+
+  .images{
+
+    display: flex;
+    justify-content: space-between;
+  }
+  #div2 img, #div2.no-image{
+    display: flex;
+    flex: 1;
+  }
+  .desc{
+    font-size: .6em;
+    text-align: center;
+    margin-top: 10px;
+
   }
 
 .copy{
+  width: 100%;
   margin: 0px 20px 20px 20px;
 
 
 }
-
-/* w3 styles */
-/* display: .gallery {
-    border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    font-size: .6em;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
