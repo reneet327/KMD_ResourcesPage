@@ -1,0 +1,72 @@
+body{
+  font-family: sans-serif;
+}
+
+.outer-div{
+  position: relative;
+  width: 95%;
+  height: 300px;
+  border: 1px gray solid;
+  border-radius: 10px;
+  box-shadow: 1px 2px gray ;
+  margin: 30px;
+  padding: 20px;
+}
+
+#div2{
+  background-color: #F0F0F0;
+}
+
+h1{
+  margin-left: 30px;
+}
+h2{
+  font-size: 1.2em;
+  margin-bottom: 0;
+
+
+}
+p{
+  color: gray;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+
+
+
+.pdfs{
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    line-height: 20px;
+
+  }
+
+  .pdfs p{
+    color: black;
+    font-size: 16px;
+  }
+
+
+
+
+
+
+ #div1-image{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.copy{
+  margin: 20px;
+  width: 60%;
+
+}
