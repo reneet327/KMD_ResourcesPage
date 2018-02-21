@@ -58,34 +58,35 @@ p{
  #div1-image{
   display: flex;
   justify-content: flex-end;
-
   }
 
   .no-image{
     width: 205px;
     height: 268px;
     background-color: white;
+    border: 1px black solid;
+  }
+  #div3 .no-image{
+    height: 179px;
   }
 
   .images{
-
     display: flex;
     justify-content: space-between;
   }
-  #div2 img, #div2.no-image{
+
+  #div2 img, .no-image{
     display: flex;
     flex: 1;
   }
+
   .desc{
     font-size: .6em;
     text-align: center;
     margin-top: 10px;
-
   }
 
 .copy{
   width: 100%;
   margin: 0px 20px 20px 20px;
-
-
 }
